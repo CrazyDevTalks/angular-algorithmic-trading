@@ -26,8 +26,7 @@ export default {
         refresh_token: 'REFRESH_TOKEN',
         accountId: 'ACCOUNTI_D
     },
-    goliathUrl: 'http://localhost:8100/', // Data service local address https://github.com/Artimatic/station-data-service
-    armadilloUrl: 'http://localhost:3000/', // Machine Learning service local address https://github.com/Artimatic/robinhood-algorithmic-trading-in-angular
+    goliathUrl: 'http://localhost:8100/', // Data service local address https://github.com/CrazyDevTalks/station-data-service
     twilio: { // For SMS functionality
       key: 'KEY',
       id: 'ID'
@@ -68,11 +67,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 #### Research Backtest Screener
 
-Requires station-data-service to be set up and running. https://github.com/Artimatic/station-data-service
+Requires station-data-service to be set up and running. https://github.com/CrazyDevTalks/station-data-service
 
 #### Machine Learning functionalities
 
-Requires station-analysis-service to be set up and running. https://github.com/Artimatic/station-analysis-service
+Requires station-analysis-service to be set up and running. https://github.com/CrazyDevTalks/station-analysis-service
 
 ## Demo
 [https://chaddaily.herokuapp.com/trade-view](https://chad-daily.appspot.com/)
